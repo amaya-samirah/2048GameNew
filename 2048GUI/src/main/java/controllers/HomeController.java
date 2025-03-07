@@ -1,5 +1,8 @@
 package controllers;
 
+import java.io.IOException;
+
+import game.gui.App;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -19,7 +22,7 @@ public class HomeController {
     private TextField txt_userName;
 
     @FXML
-    void login(ActionEvent event) {
+    void login(ActionEvent event) throws IOException {
         String userName = txt_userName.getText();
         String password = txt_password.getText();
 
@@ -31,9 +34,7 @@ public class HomeController {
             System.out.println("Login Failed");
         } else {
            System.out.println("Login Success"); 
+           App.setRoot("mode");
         }
-        
-
     }
-
 }

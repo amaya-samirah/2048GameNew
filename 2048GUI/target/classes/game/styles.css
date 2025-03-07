@@ -2,6 +2,61 @@
     -fx-background-color: pink;
 }
 
+.mode-background {
+    -fx-background-color: pink;
+}
+
+.mode-rectangle {
+    -fx-background-color: rgb(213, 94, 114);
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+}
+
+.mode_choose_text {
+    text-decoration-color: white;
+}
+
+.button_128 {
+    -fx-background-color: rgb(219, 162, 171);
+    text-decoration-color: white;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+}
+
+.button_256 {
+    -fx-background-color: rgb(224, 145, 157);
+    text-decoration-color: white;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+}
+
+.button_512 {
+    -fx-background-color: rgb(215, 120, 134);
+    text-decoration-color: white;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+}
+
+.button_1024 {
+    -fx-background-color: rgb(218, 102, 120);
+    text-decoration-color: white;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+}
+
+.button_2048 {
+    -fx-background-color: rgb(206, 79, 98);
+    text-decoration-color: white;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+}
+
 .home_2048_text {
     -fx-background-color: rgb(213, 94, 114);
     text-decoration-color: white;
@@ -13,7 +68,7 @@
 .login_button {
     -fx-background-color: rgb(213, 94, 114);
     text-decoration-color: white;
-    -fx-border-width: 4px;
+    -fx-border-width: 3px;
     -fx-border-style: solid;
     -fx-border-color: white;
 }

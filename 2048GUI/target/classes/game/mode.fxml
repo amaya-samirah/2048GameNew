@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="473.0" prefWidth="389.0" styleClass="mode-background" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ModeController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff839c" height="100.0" layoutX="50.0" layoutY="13.0" stroke="WHITE" strokeType="INSIDE" styleClass="mode-rectangle" width="289.0" />
+      <Text fill="WHITE" layoutX="37.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="mode_choose_text" text="Choose Game Mode" textAlignment="CENTER" wrappingWidth="315.21630859375">
+         <font>
+            <Font name="Arial" size="37.0" />
+         </font>
+      </Text>
+      <Button id="button_128" fx:id="button_128" layoutX="114.0" layoutY="120.0" mnemonicParsing="false" onAction="#mode128" prefHeight="30.0" prefWidth="160.0" styleClass="button_128" stylesheets="@styles.css" text="128" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="32.0" />
+         </font>
+      </Button>
+      <Button id="button_256" fx:id="button_256" layoutX="115.0" layoutY="190.0" mnemonicParsing="false" onAction="#mode256" prefHeight="30.0" prefWidth="160.0" styleClass="button_256" stylesheets="@styles.css" text="256" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="32.0" />
+         </font>
+      </Button>
+      <Button id="button_512" fx:id="button_512" layoutX="115.0" layoutY="260.0" mnemonicParsing="false" onAction="#mode512" prefHeight="30.0" prefWidth="160.0" styleClass="button_512" stylesheets="@styles.css" text="512" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="32.0" />
+         </font>
+      </Button>
+      <Button id="button_1024" fx:id="button_1024" layoutX="114.0" layoutY="330.0" mnemonicParsing="false" onAction="#mode1024" prefHeight="30.0" prefWidth="160.0" styleClass="button_1024" stylesheets="@styles.css" text="1024" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="32.0" />
+         </font>
+      </Button>
+      <Button id="button_2048" fx:id="button_2048" layoutX="115.0" layoutY="400.0" mnemonicParsing="false" onAction="#mode2048" prefHeight="30.0" prefWidth="160.0" styleClass="button_2048" stylesheets="@styles.css" text="2048" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="32.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
