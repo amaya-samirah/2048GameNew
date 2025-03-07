@@ -7,9 +7,11 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import model.Game;
 
 public class App extends Application {
     private static Scene scene;
+    public static Game game;
 
     public void start(Stage stage) throws IOException {
         scene = new Scene(loadFXML("home"), 389, 473);

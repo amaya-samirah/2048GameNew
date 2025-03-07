@@ -27,9 +27,9 @@ public class HomeController {
         String password = txt_password.getText();
 
         UserList users = UserList.getInstance();
-        Game game = new Game(users);
+        App.game = new Game(users);
 
-        boolean loginSuccess = game.logIn(userName, password);
+        boolean loginSuccess = App.game.logIn(userName, password);
         if (!loginSuccess) {
             System.out.println("Login Failed");
         } else {

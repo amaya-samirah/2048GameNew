@@ -17,20 +17,20 @@ public class GameManager {
         bestScore = userBestScore;
     }
 
-    public void run() {
+    public void run(int mode) {
         println("---WELCOME TO 2048!!!---");
         boolean quit = false;
 
         while (!quit) {
-            quit = play();
+            quit = play(mode);
         }
 
         println("---GOODBYE!!!---");
     }
 
-    public boolean play() {
+    public boolean play(int mode) {
 
-        int mode = getMode();
+        //int mode = getMode();
         board.setMode(mode);
 
         drawBoard();
