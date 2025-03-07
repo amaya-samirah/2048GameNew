@@ -28,6 +28,10 @@ public class GameManager {
         println("---GOODBYE!!!---");
     }
 
+    public void setBoard() {
+        board.resetBoard();
+    }
+
     public boolean play(int mode) {
 
         //int mode = getMode();

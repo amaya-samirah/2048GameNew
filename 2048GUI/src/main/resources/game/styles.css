@@ -73,6 +73,20 @@
     -fx-border-color: white;
 }
 
+.board_button {
+    -fx-background-color: rgb(228, 130, 146);
+    text-decoration-color: white;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+}
+
 .board-background {
     -fx-background-color: rgb(255, 198, 208);
+}
+
+.icon-border {
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: white;
 }

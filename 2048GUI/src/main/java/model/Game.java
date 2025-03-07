@@ -16,6 +16,11 @@ public class Game {
         manager.run(gameMode);
     }
 
+    public void setUpGame() {
+        this.manager  = new GameManager(currUser.getBestScore());
+        manager.setBoard();
+    }
+
     public void setMode(int mode) {
         gameMode = mode;
     }

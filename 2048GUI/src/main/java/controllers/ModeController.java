@@ -27,6 +27,7 @@ public class ModeController {
     @FXML
     void mode1024(ActionEvent event) throws IOException {
         App.game.setMode(1024);
+        App.game.setUpGame();
         App.setRoot("play");
         System.out.println("Game Mode: 1024");
     }
@@ -34,6 +35,7 @@ public class ModeController {
     @FXML
     void mode128(ActionEvent event) throws IOException {
         App.game.setMode(128);
+        App.game.setUpGame();
         App.setRoot("play");
         System.out.println("Game Mode: 128");
     }
@@ -41,6 +43,7 @@ public class ModeController {
     @FXML
     void mode2048(ActionEvent event) throws IOException {
         App.game.setMode(2048);
+        App.game.setUpGame();
         App.setRoot("play");
         System.out.println("Game Mode: 2048");
     }
@@ -48,6 +51,7 @@ public class ModeController {
     @FXML
     void mode256(ActionEvent event) throws IOException {
         App.game.setMode(256);
+        App.game.setUpGame();
         App.setRoot("play");
         System.out.println("Game Mode: 256");
     }
@@ -55,6 +59,7 @@ public class ModeController {
     @FXML
     void mode512(ActionEvent event) throws IOException {
         App.game.setMode(512);
+        App.game.setUpGame();
         App.setRoot("play");
         System.out.println("Game Mode: 512");
     }
