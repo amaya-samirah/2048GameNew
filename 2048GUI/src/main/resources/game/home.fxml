@@ -9,28 +9,28 @@
 
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="473.0" prefWidth="389.0" styleClass="home_background" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.HomeController">
    <children>
-      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="home_2048_text" text="2048" textAlignment="CENTER" wrappingWidth="384.89404296875">
+      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="home_2048_text" text="2048" textAlignment="CENTER" translateY="25.0" wrappingWidth="384.89404296875">
          <font>
             <Font size="96.0" />
          </font>
       </Text>
-      <TextField id="userName" fx:id="userName" alignment="CENTER" maxWidth="100.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="300.0" styleClass="home_2048_text" stylesheets="@styles.css" text="Username" translateX="43.0" translateY="30.0">
+      <TextField id="txt_userName" fx:id="txt_userName" alignment="CENTER" maxWidth="100.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="300.0" promptText="Username" styleClass="home_2048_text" stylesheets="@styles.css" translateX="43.0" translateY="50.0">
          <font>
-            <Font name="Arial" size="36.0" />
+            <Font name="Arial" size="30.0" />
          </font>
          <effect>
             <Glow />
          </effect>
       </TextField>
-      <TextField id="password" fx:id="password" alignment="CENTER" layoutX="10.0" layoutY="124.0" maxWidth="100.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="300.0" styleClass="home_2048_text" stylesheets="@styles.css" text="Password" translateX="43.0" translateY="40.0">
+      <TextField id="txt_password" fx:id="txt_password" alignment="CENTER" layoutX="10.0" layoutY="124.0" maxWidth="100.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="300.0" promptText="Password" styleClass="home_2048_text" stylesheets="@styles.css" translateX="43.0" translateY="70.0">
          <font>
-            <Font name="Arial" size="36.0" />
+            <Font name="Arial" size="30.0" />
          </font>
          <effect>
             <Glow />
          </effect>
       </TextField>
-      <Button id="login" fx:id="login" alignment="CENTER" mnemonicParsing="false" onMouseClicked="#loginClicked" prefHeight="50.0" prefWidth="139.0" styleClass="login_button" stylesheets="@styles.css" text="Login" textAlignment="CENTER" textFill="WHITE" translateX="125.0" translateY="60.0">
+      <Button id="login" fx:id="login" alignment="CENTER" mnemonicParsing="false" onAction="#login" prefHeight="50.0" prefWidth="139.0" styleClass="login_button" stylesheets="@styles.css" text="Login" textAlignment="CENTER" textFill="WHITE" translateX="125.0" translateY="100.0">
          <font>
             <Font name="Arial" size="33.0" />
          </font>

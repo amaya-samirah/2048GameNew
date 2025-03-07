@@ -5,11 +5,15 @@
 .home_2048_text {
     -fx-background-color: rgb(213, 94, 114);
     text-decoration-color: white;
-    border: 4px fill white;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: white;
 }
 
 .login_button {
     -fx-background-color: rgb(213, 94, 114);
     text-decoration-color: white;
-    border: 4px fill white;
+    -fx-border-width: 4px;
+    -fx-border-style: solid;
+    -fx-border-color: white;
 }

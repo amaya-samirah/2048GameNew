@@ -1,9 +1,9 @@
 package controllers;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
-import javafx.scene.input.MouseEvent;
 import model.Game;
 import model.UserList;
 
@@ -19,7 +19,7 @@ public class HomeController {
     private TextField txt_userName;
 
     @FXML
-    void loginClicked(MouseEvent event) {
+    void login(ActionEvent event) {
         String userName = txt_userName.getText();
         String password = txt_password.getText();
 
@@ -29,8 +29,10 @@ public class HomeController {
         boolean loginSuccess = game.logIn(userName, password);
         if (!loginSuccess) {
             System.out.println("Login Failed");
+        } else {
+           System.out.println("Login Success"); 
         }
-        System.out.println("Login Success");
+        
 
     }
 
