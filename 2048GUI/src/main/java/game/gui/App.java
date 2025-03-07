@@ -12,10 +12,13 @@ public class App extends Application {
     private static Scene scene;
 
     public void start(Stage stage) throws IOException {
-        System.out.println("Hi");
-        scene = new Scene(loadFXML("home"), 900, 700);
+        System.out.println("Reached start method");
+        scene = new Scene(loadFXML("home"), 389, 473);
+        System.out.println("Reached new scene creation");
         stage.setScene(scene);
+        System.out.println("Reached stage set scene");
         stage.show();
+        System.out.println("Reached stage show");
     }
 
     public static void setRoot(String fxml) throws IOException {
@@ -23,7 +26,7 @@ public class App extends Application {
     }
 
     private static Parent loadFXML(String fxml) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource(fxml + ".fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("/game/"+fxml + ".fxml"));
         return fxmlLoader.load();
     }
 
