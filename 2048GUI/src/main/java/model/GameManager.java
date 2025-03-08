@@ -73,8 +73,16 @@ public class GameManager {
         return play;
     }
 
-    public int[][] getBoard() {
-        return this.board.getBoard();
+    public int getBoard(int yPos, int xPos) {
+        return board.getBlock(yPos, xPos);
+    }
+
+    public void moveBlocks(int direction) {
+        board.moveBlocks(direction);
+    }
+    
+    public void setMode(int mode) {
+        board.setMode(mode);
     }
 
     public void drawBoard() {

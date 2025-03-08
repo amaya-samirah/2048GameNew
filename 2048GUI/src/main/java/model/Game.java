@@ -16,17 +16,20 @@ public class Game {
         manager.run(gameMode);
     }
 
-    public void setUpGame() {
+    public void move(int direction) {
+        manager.moveBlocks(direction);
+    }
+
+    public void setUpGame(int mode) {
         this.manager  = new GameManager(currUser.getBestScore());
         manager.setBoard();
-    }
 
-    public int[][] getBoard() {
-        return manager.getBoard();
-    }
-
-    public void setMode(int mode) {
         gameMode = mode;
+        manager.setMode(mode);
+    }
+
+    public int getBoard(int yPos, int xPos) {
+        return manager.getBoard(yPos, xPos);
     }
 
     public boolean logIn(String userName, String password) {
