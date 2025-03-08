@@ -1,5 +1,6 @@
 package controllers;
 
+import game.gui.App;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -19,7 +20,13 @@ public class PlayController {
     private Button button_left;
 
     @FXML
+    private Button button_quit;
+
+    @FXML
     private Button button_right;
+
+    @FXML
+    private Button button_start;
 
     @FXML
     private Button button_up;
@@ -63,6 +70,16 @@ public class PlayController {
     @FXML
     private Label label_currScore;
 
+    @FXML
+    void quitGame(ActionEvent event) {
+
+    }
+
+    @FXML
+    void startGame(ActionEvent event) {
+        label_bestScore.setText("BEST SCORE: "+App.game.getCurrUser().getBestScore());
+        label_currScore.setText("SCORE: 0");
+    }
 
     @FXML
     void moveDown(ActionEvent event) {

@@ -36,17 +36,27 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff839c" height="87.0" layoutX="234.0" layoutY="14.0" stroke="WHITE" strokeType="INSIDE" styleClass="mode-rectangle" width="141.0" />
       <Label id="label_bestScore" fx:id="label_bestScore" layoutX="248.0" layoutY="25.0" prefHeight="30.0" prefWidth="114.0" textFill="WHITE">
          <font>
-            <Font name="Arial" size="21.0" />
+            <Font name="Arial" size="13.0" />
          </font>
       </Label>
       <Label id="label_currScore" fx:id="label_currScore" layoutX="248.0" layoutY="58.0" prefHeight="30.0" prefWidth="114.0" textFill="WHITE">
          <font>
-            <Font name="Arial" size="21.0" />
+            <Font name="Arial" size="11.0" />
          </font>
       </Label>
-      <Button id="button_up" fx:id="button_up" layoutX="168.0" layoutY="474.0" mnemonicParsing="false" onAction="#moveUp" prefHeight="26.0" prefWidth="61.0" styleClass="board_button" text="UP" textFill="WHITE" />
-      <Button id="button_down" fx:id="button_down" layoutX="168.0" layoutY="540.0" mnemonicParsing="false" onAction="#moveDown" prefHeight="26.0" prefWidth="61.0" styleClass="board_button" text="DOWN" textFill="WHITE" />
-      <Button id="button_right" fx:id="button_right" layoutX="248.0" layoutY="507.0" mnemonicParsing="false" onAction="#moveRight" prefHeight="26.0" prefWidth="61.0" styleClass="board_button" stylesheets="@../../../../../csce247/superscigui/supersciguinew/src/main/resources/supersci/gui/styles.css" text="RIGHT" textFill="WHITE" />
-      <Button id="button_left" fx:id="button_left" layoutX="88.0" layoutY="507.0" mnemonicParsing="false" onAction="#moveLeft" prefHeight="26.0" prefWidth="61.0" styleClass="board_button" stylesheets="@../../../../../csce247/superscigui/supersciguinew/src/main/resources/supersci/gui/styles.css" text="LEFT" textFill="WHITE" />
+      <Button id="button_up" fx:id="button_up" layoutX="234.0" layoutY="471.0" mnemonicParsing="false" onAction="#moveUp" prefHeight="26.0" prefWidth="61.0" styleClass="board_button" text="UP" textFill="WHITE" />
+      <Button id="button_down" fx:id="button_down" layoutX="234.0" layoutY="537.0" mnemonicParsing="false" onAction="#moveDown" prefHeight="26.0" prefWidth="61.0" styleClass="board_button" text="DOWN" textFill="WHITE" />
+      <Button id="button_right" fx:id="button_right" layoutX="314.0" layoutY="504.0" mnemonicParsing="false" onAction="#moveRight" prefHeight="26.0" prefWidth="61.0" styleClass="board_button" stylesheets="@../../../../../csce247/superscigui/supersciguinew/src/main/resources/supersci/gui/styles.css" text="RIGHT" textFill="WHITE" />
+      <Button id="button_left" fx:id="button_left" layoutX="154.0" layoutY="504.0" mnemonicParsing="false" onAction="#moveLeft" prefHeight="26.0" prefWidth="61.0" styleClass="board_button" stylesheets="@../../../../../csce247/superscigui/supersciguinew/src/main/resources/supersci/gui/styles.css" text="LEFT" textFill="WHITE" />
+      <Button id="button_start" fx:id="button_start" layoutX="35.0" layoutY="486.0" mnemonicParsing="false" onAction="#startGame" prefHeight="29.0" prefWidth="72.0" styleClass="board_button" text="START" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button id="button_quit" fx:id="button_quit" layoutX="35.0" layoutY="524.0" mnemonicParsing="false" onAction="#quitGame" prefHeight="30.0" prefWidth="72.0" styleClass="board_button" text="QUIT" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
