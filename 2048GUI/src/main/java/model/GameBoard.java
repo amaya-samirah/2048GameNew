@@ -105,6 +105,7 @@ public class GameBoard {
      */
     public void resetBoard() {
         board = new int[4][4];
+        score = 0;
         setUpBoard();
     }
 
