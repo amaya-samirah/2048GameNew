@@ -19,6 +19,7 @@ public class LoseController {
     @FXML
     void exitGame(ActionEvent event) {
         Platform.exit();
+        App.game.logOut();
     }
 
     @FXML

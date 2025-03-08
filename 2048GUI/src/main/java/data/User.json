@@ -1,14 +1,1 @@
-[
-    {
-        "id": "b5816b97-a245-4fb9-a685-514172092ba3",
-        "username": "amaya.samirah",
-        "password": "password",
-        "score": 346
-    },
-    {
-        "id": "b5816b97-a245-4fb9-a685-514172092ba3",
-        "username": "t",
-        "password": "t",
-        "score": 900
-    }
-]
+[{"score":346,"password":"password","id":"b5816b97-a245-4fb9-a685-514172092ba3","username":"amaya.samirah"},{"score":900,"password":"t","id":"b5816b97-a245-4fb9-a685-514172092ba3","username":"t"}]

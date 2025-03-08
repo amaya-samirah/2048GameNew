@@ -94,28 +94,32 @@ public class PlayController {
     }
 
     @FXML
-    void moveDown(ActionEvent event) {
+    void moveDown(ActionEvent event) throws IOException {
         App.game.move(-1);
         updateBoard();
+        result();
         
     }
 
     @FXML
-    void moveLeft(ActionEvent event) {
+    void moveLeft(ActionEvent event) throws IOException {
         App.game.move(-2);
         updateBoard();
+        result();
     }
 
     @FXML
-    void moveRight(ActionEvent event) {
+    void moveRight(ActionEvent event) throws IOException {
         App.game.move(2);
         updateBoard();
+        result();
     }
 
     @FXML
-    void moveUp(ActionEvent event) {
+    void moveUp(ActionEvent event) throws IOException {
         App.game.move(1);
         updateBoard();
+        result();
     }
 
     public void result() throws IOException {

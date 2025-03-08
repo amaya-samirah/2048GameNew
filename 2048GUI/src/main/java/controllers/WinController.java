@@ -19,6 +19,7 @@ public class WinController {
     @FXML
     void exitGame(ActionEvent event) {
         Platform.exit();
+        App.game.logOut();
     }
 
     @FXML
