@@ -60,6 +60,10 @@ public class GameBoard {
         }
     }
 
+    public int[][] getBoard() {
+        return board;
+    }
+
     /**
      * Instance of GameBoard
      * @return GameBoard

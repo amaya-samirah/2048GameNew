@@ -79,6 +79,12 @@ public class PlayController {
     void startGame(ActionEvent event) {
         label_bestScore.setText("BEST SCORE: "+App.game.getCurrUser().getBestScore());
         label_currScore.setText("SCORE: 0");
+
+        for (int y = 0; y < 4; y++) {
+            for (int x = 0; x < 4; x++) {
+                
+            }
+        }
     }
 
     @FXML

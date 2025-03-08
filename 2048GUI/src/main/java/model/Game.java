@@ -21,6 +21,10 @@ public class Game {
         manager.setBoard();
     }
 
+    public int[][] getBoard() {
+        return manager.getBoard();
+    }
+
     public void setMode(int mode) {
         gameMode = mode;
     }

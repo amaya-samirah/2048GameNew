@@ -73,8 +73,9 @@ public class GameManager {
         return play;
     }
 
-        
-    
+    public int[][] getBoard() {
+        return this.board.getBoard();
+    }
 
     public void drawBoard() {
         for (int y = 0; y < 4; y++) {
