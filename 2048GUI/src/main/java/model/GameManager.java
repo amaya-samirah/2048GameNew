@@ -77,6 +77,18 @@ public class GameManager {
         return board.getBlock(yPos, xPos);
     }
 
+    public int getCurrScore() {
+        return board.getScore();
+    }
+
+    public boolean hasWon() {
+        return board.hasWon(board.getBoard());
+    }
+
+    public boolean hasLost() {
+        return board.hasLost();
+    }
+
     public void moveBlocks(int direction) {
         board.moveBlocks(direction);
     }

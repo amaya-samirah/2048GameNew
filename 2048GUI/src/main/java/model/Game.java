@@ -40,6 +40,18 @@ public class Game {
         return true;
     }
 
+    public int getCurrScore() {
+        return manager.getCurrScore();
+    }
+
+    public boolean hasWon() {
+        return manager.hasWon();
+    }
+
+    public boolean hasLost() {
+        return manager.hasLost();
+    }
+
     public User getCurrUser() {
         return currUser;
     }
