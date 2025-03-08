@@ -14,7 +14,7 @@ public class App extends Application {
     public static Game game;
 
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("home"), 389, 473);
+        scene = new Scene(loadFXML("home"), 389, 579);
         stage.setScene(scene);
         stage.show();
     }

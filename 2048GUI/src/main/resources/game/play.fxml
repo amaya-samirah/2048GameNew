@@ -10,7 +10,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="579.0" prefWidth="389.0" styleClass="board-background" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ModeController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="579.0" prefWidth="389.0" styleClass="board-background" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.PlayController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff839c" height="87.0" layoutX="14.0" layoutY="12.0" stroke="WHITE" strokeType="INSIDE" styleClass="mode-rectangle" width="192.0" />
       <Text fill="WHITE" layoutX="21.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="mode_choose_text" text="Play!!!" textAlignment="CENTER" wrappingWidth="177.21630859375">
