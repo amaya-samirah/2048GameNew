@@ -15,7 +15,7 @@ import org.json.simple.parser.JSONParser;
  */
 public class DataManager {
     
-    protected static final String FILENAME = "2048GUI/src/main/java/data/User.json";
+    protected static final String FILENAME = "2048GameNew/2048GUI/src/main/java/data/User.json";
     protected static final String ID = "id";
     protected static final String SCORE = "score";
     protected static final String USERNAME = "username";
